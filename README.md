@@ -24,6 +24,18 @@ Utilizamos [React-Bootstrap](https://react-bootstrap.netlify.app/) **v2.9.0** en
 
 Además utilizamos el objeto props para mandar información (en este caso un string que sería el "my friend") desde un Componente padre (**App.jsx**) a un Componente hijo (**Titulos.jsx**).
 
+Utilizamos un HOOK que es una función que le da habilidades extras a mi functionalComponent, una de esas es el Estado.
+
+> 📌 useState es el nombre del Hook.
+
+Para crear ese State uso una constante:
+
+const=[state, setState] = useState("");
+
+Aquí llamo a mi State con el nombre state e incializo mi variable state con un string vacío ("") para que incie sin nada, luego como segundo parámetro coloco el setState que me sirve para modificar ese state.
+
+Luego coloco el evento onClick en mi Button para que cuando presione ese botón me cambie el State.
+
 ### Repositorio 💻
 
 Los ejercicios se encuentran en el sgte. repositorio:
